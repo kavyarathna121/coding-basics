@@ -1,2 +1,2 @@
 # coding-basics
-these are a set of codes I come back to, which I wrote while I was learning how to code.
+These are beginner level, simple programs in javascript to learn and understand the basics of coding.
