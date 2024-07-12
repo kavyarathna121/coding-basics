@@ -1,10 +1,4 @@
-// const arr1 = ['a', 'b', 'c', 'd'];
-// let b = [];
-
-// b = arr1.reduce((a,b) => a+b);
-
-// console.log(b);
-
+// this code adds the duplicate values
 const a = [1, 2, 3, 2, 4, 5, 6, 4, 7];
 
 const filteredArray = Object.values(a.reduce((acc, curr) => {
@@ -12,4 +6,4 @@ const filteredArray = Object.values(a.reduce((acc, curr) => {
     return acc;
 }, []));
 
-console.log(filteredArray);
+console.log(filteredArray); // output: [1,4,3,8,5,6,7]
