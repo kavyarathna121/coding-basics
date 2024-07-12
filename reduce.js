@@ -4,3 +4,5 @@ let b = [];
 b = arr1.reduce((a,b) => a+b);
 
 console.log(b);
+
+// prints the sum 10
